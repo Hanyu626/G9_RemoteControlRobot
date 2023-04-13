@@ -1,0 +1,822 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 27 14:52:39 2023
+# Process ID: 21848
+# Current directory: D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/My_IP2'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulse-Width-Modulation-IP-master'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/7788/VIVADO/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.cache/ip 
+WARNING: [HDL 9-3756] overwriting previous definition of module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+add_files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 345.816 ; gain = 43.727
+Command: synth_design -top design_1_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+CRITICAL WARNING: [filemgmt 20-1741] File 'design_1.v' is used by one or more modules, but with different contents, and may lead to unpredictable results:
+* design_1 (D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/hdl/design_1.v)
+* design_1 (D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v)
+Please reset and regenerate these modules to resolve the differences, or synthesize them independently.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20636 
+WARNING: [Synth 8-2490] overwriting previous definition of module design_1 [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 471.070 ; gain = 119.633
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_PWM_Generator_v1_0_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_PWM_Generator_v1_0_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_PWM_Generator_v1_0_0_0' (1#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_PWM_Generator_v1_0_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_0' (2#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_0' (3#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_1_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_1_0' (4#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_1' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_1' (5#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_uartlite_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_uartlite_0_0' (6#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_uartlite_bt_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_uartlite_bt_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_uartlite_bt_0' (7#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_axi_uartlite_bt_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_camera_capture_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_camera_capture_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_camera_capture_0_0' (8#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_camera_capture_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_camera_controller_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_camera_controller_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_camera_controller_0_0' (9#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_camera_controller_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (10#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-350] instance 'clk_wiz_0' of module 'design_1_clk_wiz_0_0' requires 4 connections, but only 3 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:496]
+INFO: [Synth 8-6157] synthesizing module 'design_1_counter_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_counter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_counter_0_0' (11#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_counter_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_gpio_input_splitter_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_gpio_input_splitter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_gpio_input_splitter_0_0' (12#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_gpio_input_splitter_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_gpio_splitter_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_gpio_splitter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_gpio_splitter_0_0' (13#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_gpio_splitter_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'gpio_splitter_0' of module 'design_1_gpio_splitter_0_0' requires 9 connections, but only 3 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:513]
+INFO: [Synth 8-6157] synthesizing module 'design_1_lower_vbuffer_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_lower_vbuffer_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_lower_vbuffer_0' (14#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_lower_vbuffer_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'lower_vbuffer' of module 'design_1_lower_vbuffer_0' requires 16 connections, but only 13 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:517]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mdm_1_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mdm_1_0' (15#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_0' (16#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_axi_intc_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_axi_intc_0' (17#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_axi_periph_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:869]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_8RVYHO' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_8RVYHO' (18#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1UTB3Y5' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2251]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1UTB3Y5' (19#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2251]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_7ANRHB' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2383]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_7ANRHB' (20#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2383]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1W07O72' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2515]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1W07O72' (21#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2515]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_5LX7BU' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2661]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_5LX7BU' (22#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2661]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_1XR4ZAZ' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2793]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_1XR4ZAZ' (23#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2793]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_4YOIXL' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2925]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_4YOIXL' (24#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:2925]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_1YO2N20' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3057]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_1YO2N20' (25#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3057]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1RZP34U' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3437]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1RZP34U' (26#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3437]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (27#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_axi_periph_0' (28#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:869]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_clk_wiz_1_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_clk_wiz_1_0' (29#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_microblaze_0_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3203]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dlmb_bram_if_cntlr_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dlmb_bram_if_cntlr_0' (30#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dlmb_v10_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dlmb_v10_0' (31#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'design_1_dlmb_v10_0' requires 25 connections, but only 24 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3349]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ilmb_bram_if_cntlr_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ilmb_bram_if_cntlr_0' (32#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ilmb_v10_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ilmb_v10_0' (33#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'design_1_ilmb_v10_0' requires 25 connections, but only 24 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3395]
+INFO: [Synth 8-6157] synthesizing module 'design_1_lmb_bram_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_lmb_bram_0' (34#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'lmb_bram' of module 'design_1_lmb_bram_0' requires 16 connections, but only 14 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3420]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' (35#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:3203]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_xlconcat_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_xlconcat_0/synth/design_1_microblaze_0_xlconcat_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 2 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (36#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_xlconcat_0' (37#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_xlconcat_0/synth/design_1_microblaze_0_xlconcat_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_microblaze_0_clk_wiz_1_100M_0' [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_rst_microblaze_0_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_microblaze_0_clk_wiz_1_100M_0' (38#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/.Xil/Vivado-21848-LAPTOP-VEGFUOC6/realtime/design_1_rst_microblaze_0_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_microblaze_0_clk_wiz_1_100M' of module 'design_1_rst_microblaze_0_clk_wiz_1_100M_0' requires 10 connections, but only 8 given [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:834]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_0_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 4 - type: integer 
+	Parameter NUM_PORTS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' (38#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_0_0' (39#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_1_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_1_0/synth/design_1_xlconcat_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized1' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 17 - type: integer 
+	Parameter IN1_WIDTH bound to: 15 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized1' (39#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_1_0' (40#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_1_0/synth/design_1_xlconcat_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_2_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_2_0/synth/design_1_xlconcat_2_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized2' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 12 - type: integer 
+	Parameter IN1_WIDTH bound to: 20 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized2' (40#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_2_0' (41#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_2_0/synth/design_1_xlconcat_2_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_0_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (42#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (43#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_1_1' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_1/synth/design_1_xlconstant_1_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' (43#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_1_1' (44#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_1_1/synth/design_1_xlconstant_1_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_2_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/synth/design_1_xlconstant_2_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_2_0' (45#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_0/synth/design_1_xlconstant_2_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_3_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_3_0/synth/design_1_xlconstant_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized1' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized1' (45#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_3_0' (46#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_3_0/synth/design_1_xlconstant_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_4_0' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_4_0/synth/design_1_xlconstant_4_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized2' [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized2' (46#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_4_0' (47#1) [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_4_0/synth/design_1_xlconstant_4_0.v:57]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'counter_0'. This will prevent further optimization [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:500]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (48#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (49#1) [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized2 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized1 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In13[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 511.012 ; gain = 159.574
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 511.012 ; gain = 159.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 511.012 ; gain = 159.574
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0/design_1_camera_capture_0_0_in_context.xdc] for cell 'design_1_i/camera_capture_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0/design_1_camera_capture_0_0_in_context.xdc] for cell 'design_1_i/camera_capture_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_controller_0_0/design_1_camera_controller_0_0/design_1_camera_controller_0_0_in_context.xdc] for cell 'design_1_i/camera_controller_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_controller_0_0/design_1_camera_controller_0_0/design_1_camera_controller_0_0_in_context.xdc] for cell 'design_1_i/camera_controller_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_counter_0_0/design_1_counter_0_0/design_1_counter_0_0_in_context.xdc] for cell 'design_1_i/counter_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_counter_0_0/design_1_counter_0_0/design_1_counter_0_0_in_context.xdc] for cell 'design_1_i/counter_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_lower_vbuffer_0/design_1_lower_vbuffer_0/design_1_lower_vbuffer_0_in_context.xdc] for cell 'design_1_i/lower_vbuffer'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_lower_vbuffer_0/design_1_lower_vbuffer_0/design_1_lower_vbuffer_0_in_context.xdc] for cell 'design_1_i/lower_vbuffer'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0/design_1_dlmb_v10_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0/design_1_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0/design_1_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0/design_1_lmb_bram_0_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0/design_1_microblaze_0_axi_intc_0_in_context.xdc] for cell 'design_1_i/microblaze_0_axi_intc'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0/design_1_mdm_1_0_in_context.xdc] for cell 'design_1_i/mdm_1'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_bt_0/design_1_axi_uartlite_bt_0/design_1_axi_uartlite_bt_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_bt'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_uartlite_bt_0/design_1_axi_uartlite_bt_0/design_1_axi_uartlite_bt_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_bt'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/microblaze_0_clk_wiz_1'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0_in_context.xdc] for cell 'design_1_i/microblaze_0_clk_wiz_1'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_rst_microblaze_0_clk_wiz_1_100M_0/design_1_rst_microblaze_0_clk_wiz_1_100M_0/design_1_rst_microblaze_0_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_microblaze_0_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_rst_microblaze_0_clk_wiz_1_100M_0/design_1_rst_microblaze_0_clk_wiz_1_100M_0/design_1_rst_microblaze_0_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_1_i/rst_microblaze_0_clk_wiz_1_100M'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0_in_context.xdc] for cell 'design_1_i/axi_bram_ctrl_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0_in_context.xdc] for cell 'design_1_i/axi_bram_ctrl_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_in_context.xdc] for cell 'design_1_i/axi_gpio_button'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_in_context.xdc] for cell 'design_1_i/axi_gpio_button'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_ctrl_out'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_ctrl_out'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_gpio_splitter_0_0/design_1_gpio_splitter_0_0/design_1_gpio_splitter_0_0_in_context.xdc] for cell 'design_1_i/gpio_splitter_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_gpio_splitter_0_0/design_1_gpio_splitter_0_0/design_1_gpio_splitter_0_0_in_context.xdc] for cell 'design_1_i/gpio_splitter_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_input'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_input'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_gpio_input_splitter_0_0/design_1_gpio_input_splitter_0_0/design_1_gpio_input_splitter_0_0_in_context.xdc] for cell 'design_1_i/gpio_input_splitter_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_gpio_input_splitter_0_0/design_1_gpio_input_splitter_0_0/design_1_gpio_input_splitter_0_0_in_context.xdc] for cell 'design_1_i/gpio_input_splitter_0'
+Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_PWM_Generator_v1_0_0_0/design_1_PWM_Generator_v1_0_0_0/design_1_PWM_Generator_v1_0_0_0_in_context.xdc] for cell 'design_1_i/PWM_Generator_v1_0_0'
+Finished Parsing XDC File [d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_PWM_Generator_v1_0_0_0/design_1_PWM_Generator_v1_0_0_0/design_1_PWM_Generator_v1_0_0_0_in_context.xdc] for cell 'design_1_i/PWM_Generator_v1_0_0'
+Parsing XDC File [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'pclk_IBUF'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'VGA_RED[0]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'VGA_RED[1]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'VGA_RED[2]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'VGA_RED[3]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'VGA_GREEN[0]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'VGA_GREEN[1]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'VGA_GREEN[2]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'VGA_GREEN[3]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'VGA_BLUE[0]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'VGA_BLUE[1]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'VGA_BLUE[2]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'VGA_BLUE[3]'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'VGA_H_SYNC'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'VGA_V_SYNC'. [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc:56]
+Finished Parsing XDC File [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/constrs_1/imports/XDC/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 831.477 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 831.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 831.477 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 831.477 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/lower_vbuffer' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+CRITICAL WARNING: [filemgmt 20-1741] File 'design_1.v' is used by one or more modules, but with different contents, and may lead to unpredictable results:
+* design_1 (D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/hdl/design_1.v)
+* design_1 (D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/synth/design_1.v)
+Please reset and regenerate these modules to resolve the differences, or synthesize them independently.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 831.477 ; gain = 480.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 831.477 ; gain = 480.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  d:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0/design_1_microblaze_0_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/camera_capture_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/camera_controller_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/counter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/lower_vbuffer. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_axi_intc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_xlconcat. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_uartlite_bt. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/microblaze_0_clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_microblaze_0_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_bram_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_button. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_ctrl_out. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/gpio_splitter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_input. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/gpio_input_splitter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/PWM_Generator_v1_0_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 831.477 ; gain = 480.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 831.477 ; gain = 480.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 831.477 ; gain = 480.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/clk_wiz_0/clk_in1' to pin 'design_1_i/microblaze_0_clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/clk_wiz_0/clk_12MHz' to pin 'design_1_i/clk_wiz_0/bbstub_clk_12MHz/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'design_1_i/clk_wiz_0/clk_in1' to 'design_1_i/microblaze_0_clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/mdm_1/Dbg_Clk_0' to pin 'design_1_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/mdm_1/Dbg_Update_0' to pin 'design_1_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/microblaze_0_clk_wiz_1/clk_out1' to pin 'design_1_i/microblaze_0_clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/axi_bram_ctrl_0/bram_clk_a' to pin 'design_1_i/axi_bram_ctrl_0/bbstub_bram_clk_a/O'
+INFO: [Synth 8-5819] Moved 8 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 843.207 ; gain = 491.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 843.430 ; gain = 491.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------------------+----------+
+|      |BlackBox name                              |Instances |
++------+-------------------------------------------+----------+
+|1     |design_1_xbar_0                            |         1|
+|2     |design_1_PWM_Generator_v1_0_0_0            |         1|
+|3     |design_1_axi_bram_ctrl_0_0                 |         1|
+|4     |design_1_axi_gpio_0_0                      |         1|
+|5     |design_1_axi_gpio_1_0                      |         1|
+|6     |design_1_axi_gpio_0_1                      |         1|
+|7     |design_1_axi_uartlite_0_0                  |         1|
+|8     |design_1_axi_uartlite_bt_0                 |         1|
+|9     |design_1_camera_capture_0_0                |         1|
+|10    |design_1_camera_controller_0_0             |         1|
+|11    |design_1_clk_wiz_0_0                       |         1|
+|12    |design_1_counter_0_0                       |         1|
+|13    |design_1_gpio_input_splitter_0_0           |         1|
+|14    |design_1_gpio_splitter_0_0                 |         1|
+|15    |design_1_lower_vbuffer_0                   |         1|
+|16    |design_1_mdm_1_0                           |         1|
+|17    |design_1_microblaze_0_0                    |         1|
+|18    |design_1_microblaze_0_axi_intc_0           |         1|
+|19    |design_1_microblaze_0_clk_wiz_1_0          |         1|
+|20    |design_1_rst_microblaze_0_clk_wiz_1_100M_0 |         1|
+|21    |design_1_dlmb_bram_if_cntlr_0              |         1|
+|22    |design_1_dlmb_v10_0                        |         1|
+|23    |design_1_ilmb_bram_if_cntlr_0              |         1|
+|24    |design_1_ilmb_v10_0                        |         1|
+|25    |design_1_lmb_bram_0                        |         1|
++------+-------------------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------------+------+
+|      |Cell                                       |Count |
++------+-------------------------------------------+------+
+|1     |design_1_PWM_Generator_v1_0_0_0            |     1|
+|2     |design_1_axi_bram_ctrl_0_0                 |     1|
+|3     |design_1_axi_gpio_0_0                      |     1|
+|4     |design_1_axi_gpio_0_1                      |     1|
+|5     |design_1_axi_gpio_1_0                      |     1|
+|6     |design_1_axi_uartlite_0_0                  |     1|
+|7     |design_1_axi_uartlite_bt_0                 |     1|
+|8     |design_1_camera_capture_0_0                |     1|
+|9     |design_1_camera_controller_0_0             |     1|
+|10    |design_1_clk_wiz_0_0                       |     1|
+|11    |design_1_counter_0_0                       |     1|
+|12    |design_1_dlmb_bram_if_cntlr_0              |     1|
+|13    |design_1_dlmb_v10_0                        |     1|
+|14    |design_1_gpio_input_splitter_0_0           |     1|
+|15    |design_1_gpio_splitter_0_0                 |     1|
+|16    |design_1_ilmb_bram_if_cntlr_0              |     1|
+|17    |design_1_ilmb_v10_0                        |     1|
+|18    |design_1_lmb_bram_0                        |     1|
+|19    |design_1_lower_vbuffer_0                   |     1|
+|20    |design_1_mdm_1_0                           |     1|
+|21    |design_1_microblaze_0_0                    |     1|
+|22    |design_1_microblaze_0_axi_intc_0           |     1|
+|23    |design_1_microblaze_0_clk_wiz_1_0          |     1|
+|24    |design_1_rst_microblaze_0_clk_wiz_1_100M_0 |     1|
+|25    |design_1_xbar_0                            |     1|
+|26    |IBUF                                       |    19|
+|27    |OBUF                                       |    16|
++------+-------------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------------------+------+
+|      |Instance                      |Module                                |Cells |
++------+------------------------------+--------------------------------------+------+
+|1     |top                           |                                      |  2260|
+|2     |  design_1_i                  |design_1                              |  2225|
+|3     |    microblaze_0_axi_periph   |design_1_microblaze_0_axi_periph_0    |   929|
+|4     |    microblaze_0_xlconcat     |design_1_microblaze_0_xlconcat_0      |     0|
+|5     |    xlconcat_0                |design_1_xlconcat_0_0                 |     0|
+|6     |    xlconcat_1                |design_1_xlconcat_1_0                 |     0|
+|7     |    xlconcat_2                |design_1_xlconcat_2_0                 |     0|
+|8     |    xlconstant_0              |design_1_xlconstant_0_0               |     0|
+|9     |    xlconstant_1              |design_1_xlconstant_1_1               |     0|
+|10    |    xlconstant_2              |design_1_xlconstant_2_0               |     0|
+|11    |    xlconstant_3              |design_1_xlconstant_3_0               |     0|
+|12    |    xlconstant_4              |design_1_xlconstant_4_0               |     0|
+|13    |    microblaze_0_local_memory |microblaze_0_local_memory_imp_1K0VQXK |   496|
++------+------------------------------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 854.227 ; gain = 182.324
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 854.227 ; gain = 502.789
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 862.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+135 Infos, 133 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 862.848 ; gain = 517.031
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 862.848 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/OV7670-master_compress_snapshot0327E2/OV7670-master_compress/OV7670-master/OV7670-master/OV7670/ov7670.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 27 14:53:19 2023...

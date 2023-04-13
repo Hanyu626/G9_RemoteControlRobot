@@ -1,0 +1,11 @@
+19:40:02 **** Incremental Build of configuration Debug for project test_bluetooth_graphic ****
+make all 
+'Building target: test_bluetooth_graphic.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bluetooth_graphic_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_bluetooth_graphic.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/bin/ld.exe: invalid length for memory region microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: test_bluetooth_graphic.elf] Error 1
+
+19:40:03 Build Finished (took 506ms)
+
