@@ -1,0 +1,31 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: The vhdl library search path for library "std" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: The vhdl library search path for library "synopsys" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: The vhdl library search path for library "ieee" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: The vhdl library search path for library "unimacro" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: The vhdl library search path for library "unisim" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: The vhdl library search path for library "vl" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: The vhdl library search path for library "xpm" is now "D:/7788/VIVADO/Vivado/2018.3/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+INFO: analyzing module camera_capture (VERI-9002)
+INFO: analyzing module design_1_camera_capture_0_0 (VERI-9002)
+INFO: analyzing module design_1_camera_capture_0_0_camera_capture (VERI-9002)
+INFO: analyzing module glbl (VERI-9002)
+-- Analyzing VHDL file "d:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0_sim_netlist.vhdl" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'design_1_camera_capture_0_0_camera_capture' (VHDL-1012)
+INFO: analyzing architecture 'STRUCTURE' of entity 'design_1_camera_capture_0_0_camera_capture' (VHDL-9006)
+INFO: analyzing entity 'design_1_camera_capture_0_0' (VHDL-1012)
+INFO: analyzing architecture 'STRUCTURE' of entity 'design_1_camera_capture_0_0' (VHDL-9006)
+Listing tops:
+VeriTop library:xil_defaultlib mod:camera_capture
+VeriTop library:xil_defaultlib mod:design_1_camera_capture_0_0
+VeriTop library:xil_defaultlib mod:glbl
+VHDLTop: library:xil_defaultlib entity:design_1_camera_capture_0_0 arch:
+VHDLTop: library:xil_defaultlib entity:design_1_camera_capture_0_0 arch:
+END of tops
+D:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/new/camera_capture.v(23): INFO: compiling module 'camera_capture_default' (VERI-1018)
+d:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0_sim_netlist.v(18): INFO: compiling module 'design_1_camera_capture_0_0_default' (VERI-1018)
+d:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0_sim_netlist.v(1933): INFO: compiling module 'glbl_default' (VERI-1018)
+d:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0_sim_netlist.vhdl(2693): INFO: executing 'design_1_camera_capture_0_0_default(STRUCTURE)' (VHDL-1067)
+d:/OV7670-master/OV7670-master/OV7670/ov7670.srcs/sources_1/bd/design_1/ip/design_1_camera_capture_0_0/design_1_camera_capture_0_0_sim_netlist.vhdl(17): INFO: executing 'design_1_camera_capture_0_0_camera_capture_default(STRUCTURE)' (VHDL-1067)
+srcscan exits with return value 0
