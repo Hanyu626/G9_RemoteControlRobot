@@ -25,6 +25,7 @@ This is our overall system block diagram.
 # Repository structure
 ```
 src
+   |-- ()_(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((,py
    |-- car_terminal
    |   |-- ov7670.xpr 
    |   |-- ov7670.srcs
