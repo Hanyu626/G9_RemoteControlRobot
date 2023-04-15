@@ -1,10 +1,9 @@
 import pygame
 import math
 import serial
-import time
 
 joysticks = {}
-
+ 
 def joystick_fetch():
     js_package = [0, 0, 0, 0, 0, 0, 0, 0]
 
@@ -49,10 +48,10 @@ def joystick_fetch():
 
     # Axis fetch
     for i in range(6):
-        axis = math.floor((joystick.get_axis(i) + 1) * 127)
+        axis = math.floor((joystick.get_axis(i) + 1) * 128)
         js_package[2+i] = axis
 
-    js_package.insert(0, 255)
+    js_package.insert(0, 123)
 
     return js_package
 
@@ -60,7 +59,7 @@ def joystick_fetch():
 if __name__ == "__main__":
     pygame.init()
 
-    ser = serial.Serial('COM9', baudrate=115200)
+    ser = serial.Serial('COM6', baudrate=9600)
     print(ser)
 
     while True:
@@ -68,9 +67,8 @@ if __name__ == "__main__":
 
         for cc in line:
             print(chr(cc), end='')
-
+        
         js = joystick_fetch()
         ser.write(js)
-        time.sleep(0.1)
-
+        
         # print()
