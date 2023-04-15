@@ -20,12 +20,12 @@ This is our overall system block diagram.
 4. Import hardware and Launch SDK. 
 5. Programm two boards. 
 6. In SDK terminal, connect serial port with baud rate 115200. 
-7. Run configuration and python code (name).py
+7. Run configuration and python code xbox_uart.py
 
 # Repository structure
 ```
 src
-   |-- ()_(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((,py
+   |-- xbox_uart.py
    |-- car_terminal
    |   |-- ov7670.xpr 
    |   |-- ov7670.srcs
@@ -69,7 +69,7 @@ src
    |   |   |   |-- PWM_Generator_v1_0.v
    |   |   |   |-- PWM_Generator_v1_0_S_AXI.v
 docs
-   |-- final_report
+   |-- 532_Final_Report_Group.pdf
 ```
 # Authors
 Hanyu Che
@@ -79,6 +79,7 @@ Runze Zuo
 # Acknowledgments
 https://digilent.com/projects/dhq/fpga-camera-system-14d6ea#story
 https://bwang40.github.io/BoyangWang/Source/OtherProjects/NEXYS4DDR-OV7640.html
+https://github.com/okchan08/OV7670
    
    
    
