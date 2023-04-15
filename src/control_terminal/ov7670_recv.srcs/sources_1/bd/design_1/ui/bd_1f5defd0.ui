@@ -1,0 +1,84 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port tx_0 -pg 1 -y 420 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 790 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -y 80 -defaultsOSRD
+preplace port VGA_V_SYNC -pg 1 -y 1020 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 230 -defaultsOSRD
+preplace port VGA_H_SYNC -pg 1 -y 1000 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -y 710 -defaultsOSRD
+preplace port rx_0 -pg 1 -y 940 -defaultsOSRD
+preplace portBus VGA_RED -pg 1 -y 940 -defaultsOSRD
+preplace portBus VGA_BLUE -pg 1 -y 980 -defaultsOSRD
+preplace portBus VGA_GREEN -pg 1 -y 960 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 8 -y 860 -defaultsOSRD
+preplace inst microblaze_0_clk_wiz_1 -pg 1 -lvl 2 -y 780 -defaultsOSRD
+preplace inst axi_uartlite_bt -pg 1 -lvl 8 -y 410 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 7 -y 800 -defaultsOSRD
+preplace inst rst_microblaze_0_clk_wiz_1_100M -pg 1 -lvl 3 -y 730 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 7 -y 900 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 7 -y 1010 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 6 -y 260 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 8 -y 750 -defaultsOSRD
+preplace inst axi_gpio_button -pg 1 -lvl 8 -y 80 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 3 -y 550 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 4 -y 870 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 4 -y 660 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 8 -y 240 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 5 -y 690 -defaultsOSRD
+preplace inst lower_vbuffer -pg 1 -lvl 9 -y 750 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 8 -y 560 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 6 -y 750 -defaultsOSRD
+preplace inst VGA_0 -pg 1 -lvl 9 -y 990 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 7 2 2100 660 2450J
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 6 2 1930 60 N
+preplace netloc xlconstant_2_dout 1 7 2 2120 680 2430J
+preplace netloc VGA_0_vga_vsync 1 9 1 N
+preplace netloc axi_uartlite_1_interrupt 1 2 7 420 460 NJ 460 NJ 460 NJ 460 NJ 460 2100 320 2480
+preplace netloc VGA_0_vga_blue 1 9 1 N
+preplace netloc axi_uartlite_0_interrupt 1 2 7 400 0 NJ 0 NJ 0 NJ 0 NJ 0 N 0 2420
+preplace netloc microblaze_0_intr 1 3 1 810
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 8 1 2480
+preplace netloc microblaze_0_intc_axi 1 3 4 830 780 NJ 780 1590J 830 1920
+preplace netloc microblaze_0_interrupt 1 4 1 N
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 6 2 N 280 2120
+preplace netloc VGA_0_vga_green 1 9 1 N
+preplace netloc microblaze_0_ilmb_1 1 5 1 1590
+preplace netloc axi_gpio_button_GPIO 1 8 2 NJ 80 NJ
+preplace netloc VGA_0_vga_red 1 9 1 N
+preplace netloc sys_clock_1 1 0 2 NJ 790 N
+preplace netloc microblaze_0_axi_dp 1 5 1 1580
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_bus_struct_reset 1 3 3 780 790 NJ 790 1620J
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_mb_reset 1 3 2 790 940 1100J
+preplace netloc VGA_0_frame_addr 1 7 3 2140 1100 NJ 1100 2800
+preplace netloc xlconstant_0_dout 1 7 1 2110
+preplace netloc xlconcat_0_dout 1 8 1 2460
+preplace netloc rx_0_1 1 0 9 NJ 940 NJ 940 390J 960 770J 1070 NJ 1070 NJ 1070 NJ 1070 N 1070 2420
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 6 2 1940 220 N
+preplace netloc axi_uartlite_1_tx 1 8 2 NJ 420 NJ
+preplace netloc axi_uartlite_0_UART 1 8 2 NJ 230 NJ
+preplace netloc VGA_0_vga_hsync 1 9 1 N
+preplace netloc reset_rtl_0_1 1 0 3 N 710 80J 690 400J
+preplace netloc rst_microblaze_0_clk_wiz_1_100M_peripheral_aresetn 1 3 5 800 800 NJ 800 1610 570 N 570 2140
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 6 2 N 260 2110
+preplace netloc microblaze_0_dlmb_1 1 5 1 1620
+preplace netloc microblaze_0_clk_wiz_1_clk_out1 1 2 6 420 630 820 770 1070 590 1600 60 1920J 70 2130
+preplace netloc microblaze_0_clk_wiz_1_locked 1 2 1 420
+preplace netloc microblaze_0_debug 1 4 1 1080
+preplace netloc microblaze_0_clk_wiz_1_clk_out2 1 2 7 410 940 780J 1080 NJ 1080 NJ 1080 NJ 1080 2130J 980 NJ
+preplace netloc mdm_1_debug_sys_rst 1 2 3 430 970 NJ 970 1070
+preplace netloc microblaze_0_clk_wiz_1_clk_out3 1 2 7 400 950 NJ 950 1090J 600 NJ 600 NJ 600 2120J 640 2470J
+preplace netloc xlslice_0_Dout 1 8 1 2460
+preplace netloc lower_vbuffer_doutb 1 7 2 2130 670 2440J
+levelinfo -pg 1 -70 60 290 600 950 1340 1770 2020 2280 2640 2820 -top -110 -bot 1250
+"
+}
+{
+   "da_axi4_cnt":"8",
+   "da_board_cnt":"13",
+   "da_bram_cntlr_cnt":"4",
+   "da_clkrst_cnt":"10",
+   "da_mb_cnt":"1"
+}
