@@ -5,9 +5,7 @@
 This project is to build a robot that can help patrol an area that is otherwise hard to monitor by traditional surveillance cameras.
 
 
-(replaced by video)
-![image](https://user-images.githubusercontent.com/81268575/231949758-c1bbfc62-689b-4a92-babc-8604cea9656a.png)
-
+[![Video Demonstration](https://user-images.githubusercontent.com/81268575/232266334-4751ed6e-a03e-43dd-b8d2-5e8eb91e7d9e.jpg)]([https://www.youtube.com/watch?v=ksYiwKTFCrY](https://youtu.be/PYYn_kXQ1YY))
 
 This is our overall system block diagram.
 ![image](https://user-images.githubusercontent.com/81268575/231949596-facd79f7-081e-49d6-91b2-a561f2b2ccc2.png)
