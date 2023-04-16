@@ -2,7 +2,7 @@
 
 # Discription
 
-This project is to build a robot that can help patrol an area that is otherwise hard to monitor by traditional surveillance cameras.
+This project is to build a robot that can help patrol an area that is otherwise hard to monitor by traditional surveillance cameras. Here is a short video to present our project.
 
 
 [![Video Demonstration](https://img.youtube.com/vi/PYYn_kXQ1YY/0.jpg)](https://www.youtube.com/watch?v=PYYn_kXQ1YY)
